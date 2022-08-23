@@ -1,0 +1,45 @@
+$color-primary: #6D8B74;
+$color-primary-2: #D0C9C0;
+$color-primary-link: #A25B5B;
+$color-primary-light: #EFEAD8;
+$color-primary-dark: #5F7161;
+$color-grey-light-1: #faf9f9;
+$color-grey-light-2: #f4f2f2;
+$color-grey-light-3: #f0eeee;
+$color-grey-light-4: #ccc;
+$color-grey-dark-1: #333;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #999;
+$color-white: #fff;
+
+$shadow-dark: 0 2rem 6rem #0000004d;
+
+$line: 0.1rem solid $color-grey-light-4;
+
+$screen-sm: 900px;
+$screen-xs: 550px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $color-grey-dark-2;
+    background-image: linear-gradient(to right bottom, $color-primary-dark, $color-primary);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
