@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="sass/main.css">
+    <link rel="shortcut icon" type="image/png" href="img/logo-inverse.png">
+
+    <title>plant insider &mdash; Your online plant shop and community!</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="header__logo-box">
+                <img src="img/logo.png" alt="" class="header__logo">
+            </div>
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="search plants">
+                <button class="search__button">
+                    <i class="fa fa-search search__icon"></i>
+                </button>
+            </form>
+
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <i class="fa fa-shopping-cart user-nav__icon" aria-hidden="true"></i>
+                    <span class="user-nav__notification" id="cart-count">0</span>
+                </div>
+
+                <div class="user-nav__icon-box">
+                    <i class="fa-solid fa-envelope user-nav__icon"></i>
+                    <span class="user-nav__notification">5</span>
+                </div>
+
+                <div class="user-nav__user">
+                    <img src="img/self.png" alt="user" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Alex</span>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content">
+            <nav class="sidebar">
+
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <span class="side-nav__text">Shop</span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <span class="side-nav__text">Blog</span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <span class="side-nav__text">Forum</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <div class="side-bar__bottom">
+                    <div class="side-bar__legal">
+                        &copy; 2022 by plant insider. All rights reserved.
+                    </div>
+                </div>
+
+            </nav>
+            <main class="landing-page">
+                <div class="about">
+
+                    <h1 class="about__heading">Plants? </h1>
+                    <img src="img/plants-house.jpg" alt="" class="about__image" title="Photo by Huy Phan on Unsplash">
+                    <h3 class="about__subheading">We are all about them. <span class="about__companyname">plant
+                            insider</span> is a plant shop and community of plant lovers.</h3>
+                    <h3 class="about__subheading">Be a plant insider and <span class="about__join">join</span> our
+                        community!</h3>
+                </div>
+
+                <div class="sort">
+                    <button class="sort__button">Sort</button>
+                    <div class="sort__dropdown">
+                        <a id="sort-low-high" class="sort__dropdown-item" href="#">Sort by Price: Low to High</a>
+                        <a id="sort-high-low" class="sort__dropdown-item" href="#">Sort by Price: High to Low</a>
+                        <a id="sort-featured" class="sort__dropdown-item" href="#">Sort by Featured</a>
+                    </div>
+                </div>
+
+                <div class="shop">
+
+                    <div class="shop__container" id="shop-item-80">
+                        <figure class="shop__item">
+                            <div class="shop__container-image">
+                                <img src="img/plant1.jpg" alt="Plant 1" class="shop__item-image" title="Photo by Igor Son on Unsplash">
+                                <button class="shop__add-button">Add to Cart</button>
+                            </div>
+                            <div class="shop__item-caption">
+                                <h3 class="shop__item-label">Ficus Elastica</h3>
+                                <h3 class="shop__item-label">$80</h3>
+                            </div>
+                        </figure>
+                    </div>
+
+                    <div class="shop__container" id="shop-item-101">
+                        <figure class="shop__item">
+                            <div class="shop__container-image">
+                                <img src="img/plant2.jpg" alt="Plant 2" class="shop__item-image" title="Photo by Severin Candrian on Unsplash">
+                                <button class="shop__add-button">Add to Cart</button>
+                            </div>
+                            <div class="shop__item-caption">
+                                <h3 class="shop__item-label">Monstera</h3>
+                                <h3 class="shop__item-label">$100</h3>
+                            </div>
+                        </figure>
+                    </div>
+
+                    <div class="shop__container" id="shop-item-50">
+                        <figure class="shop__item">
+                            <div class="shop__container-image">
+                                <img src="img/plant3.jpg" alt="Plant 3" class="shop__item-image" title="Photo by Pawel Czerwinski on Unsplash">
+                                <button class="shop__add-button">Add to Cart</button>
+                            </div>
+                            <div class="shop__item-caption">
+                                <h3 class="shop__item-label">Zzz plant</h3>
+                                <h3 class="shop__item-label">$50</h3>
+                            </div>
+                        </figure>
+                    </div>
+
+                    <div class="shop__container" id="shop-item-35">
+                        <figure class="shop__item">
+                            <div class="shop__container-image">
+                                <img src="img/plant4.jpg" alt="Plant 4" class="shop__item-image" title="Photo by Kevin Lessy on Unsplash">
+                                <button class="shop__add-button">Add to Cart</button>
+                            </div>
+                            <div class="shop__item-caption">
+                                <h3 class="shop__item-label">Pothos</h3>
+                                <h3 class="shop__item-label">$35</h3>
+                            </div>
+                        </figure>
+                    </div>
+
+                    <div class="shop__container" id="shop-item-100">
+                        <figure class="shop__item">
+                            <div class="shop__container-image">
+                                <img src="img/plant5.jpg" alt="Plant 5" class="shop__item-image"title="Photo by Lauren Mancke on Unsplash">
+                                <button class="shop__add-button">Add to Cart</button>
+                            </div>
+                            <div class="shop__item-caption">
+                                <h3 class="shop__item-label">Ficus Fiddle</h3>
+                                <h3 class="shop__item-label">$100</h3>
+                            </div>
+                        </figure>
+                    </div>
+
+                    <div class="shop__container" id="shop-item-99">
+                        <figure class="shop__item">
+                            <div class="shop__container-image">
+                                <img src="img/plant6.jpg" alt="Plant 6" class="shop__item-image" title="Photo by Annie Spratt on Unsplash">
+                                <button class="shop__add-button">Add to Cart</button>
+                            </div>
+                            <div class="shop__item-caption">
+                                <h3 class="shop__item-label">Trio Plant Set</h3>
+                                <h3 class="shop__item-label">$99</h3>
+                            </div>
+                        </figure>
+                    </div>
+
+                </div>
+
+
+            </main>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
